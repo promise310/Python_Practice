@@ -35,8 +35,9 @@ channel_by_list = ['Jin', 13]
 #   1 : age
 
 print(f'The student name is{channel_by_list[0]}.')
+print(f'Student age is {channel_by_list[1]}.')
 
-# 각 채널은 Dictionary로 구성하고 여러 채널의 목록은 List로 구성해봅시다. 
+print("\n")
 students = [
     {
         'name' : 'Jin',
@@ -52,8 +53,6 @@ students = [
     }
 ]
 
-# 각 채널에 접근할 때에는 index로 접근합니다. 
+ 
 print(students[1])
-
-# 채널 내부의 정보에 접근할 때에는 key로 접근합니다. 
 print(students[1]['name'])
